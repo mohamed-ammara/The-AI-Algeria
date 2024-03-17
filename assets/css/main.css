@@ -121,13 +121,13 @@ ol li {
 
 .section-title:before {
   content: "[";
-  color: darkorange;
+  color: #e94;
   padding-right: 10px;
 }
 
 .section-title:after {
   content: "]";
-  color: darkorange;
+  color: #e94;
   padding-left: 10px;
 }
 
@@ -246,8 +246,8 @@ ol li {
 }
 
 .btn-border:hover {
-  color: darkorange;
-  border-color: darkorange;
+  color: #e94;
+  border-color: #e94;
   background-color: rgba(255, 255, 255, 0.2);
 }
 
@@ -257,7 +257,7 @@ ol li {
 }
 
 .btn-fill:hover {
-  color: darkorange;
+  color: #e94;
 }
 
 .btn-lg {
@@ -312,7 +312,7 @@ a.back-to-top i {
   height: 40px;
   line-height: 40px;
   color: #fff;
-  background-color: darkorange;
+  background-color: #e94;
   border-radius: 30px;
   text-align: center;
   transition: all 0.2s ease-in-out;
@@ -363,7 +363,7 @@ a.back-to-top:focus {
   margin: 0 auto;
   width: 15%;
   height: 15%;
-  background-color: darkorange;
+  background-color: #e94;
   border-radius: 100%;
   -webkit-animation: sk-circleBounceDelay 1.2s infinite ease-in-out both;
   animation: sk-circleBounceDelay 1.2s infinite ease-in-out both;
@@ -633,16 +633,16 @@ a.back-to-top:focus {
 }
 
 .top-nav-collapse .navbar-nav .nav-link:hover {
-  color: darkorange !important;
+  color: #e94 !important;
 }
 
 .top-nav-collapse .navbar-nav li.active a.nav-link {
-  color: darkorange !important;
+  color: #e94 !important;
 }
 
 .navbar-expand-lg .navbar-toggler {
   background: transparent;
-  border: 1px solid darkorange;
+  border: 1px solid #e94;
   background-image: linear-gradient(65deg, rgb(233, 146, 40) 0, rgb(181, 113, 29) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -680,7 +680,7 @@ a.back-to-top:focus {
   margin-left: -10px;
   width: 15px;
   height: 2px;
-  background: darkorange;
+  background: #e94;
   -webkit-transform: scale3d(0, 1, 1);
   -moz-transform: scale3d(0, 1, 1);
   transform: scale3d(0, 1, 1);
@@ -704,14 +704,14 @@ a.back-to-top:focus {
 .navbar-expand-lg .navbar-nav li a:hover,
 .navbar-expand-lg .navbar-nav li .active>a,
 .navbar-expand-lg .navbar-nav li a:focus {
-  color: darkorange !important;
+  color: #e94 !important;
 
   outline: none;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link:focus,
 .navbar-expand-lg .navbar-nav .nav-link:hover {
-  color: darkorange !important;
+  color: #e94 !important;
 }
 
 .navbar {
@@ -719,7 +719,7 @@ a.back-to-top:focus {
 }
 
 .navbar li.active a.nav-link {
-  color: darkorange;
+  color: #e94;
 }
 
 .dropdown-toggle::after {
@@ -1210,7 +1210,7 @@ h1 {
 .schedule .nav-tabs .nav-item .nav-link:hover {
   border-color: transparent;
   position: relative;
-  background-color: darkorange !important;
+  background-color: #e94 !important;
 }
 
 .schedule .nav-tabs .nav-item.show .nav-link h4,
@@ -1418,7 +1418,7 @@ h1 {
   padding: 0 12px;
   font-size: 32px;
   vertical-align: middle;
-  background-color: darkorange;
+  background-color: #e94;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -1495,7 +1495,7 @@ h1 {
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -ms-border-radius: 50%;
-  background-color: darkorange;
+  background-color: #e94;
   color: #fff;
   display: block;
   text-align: left;
@@ -1505,7 +1505,7 @@ h1 {
 }
 
 .single-intro-text:hover i {
-  background-color: darkorange;
+  background-color: #e94;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -1579,7 +1579,7 @@ h1 {
 
 /* Team Item */
 .team-item:hover {
-  border: 6px solid darkorange;
+  border: 6px solid #e94;
 }
 
 .team-item {
@@ -1592,7 +1592,7 @@ h1 {
   -moz-transition: all 0.3s ease-in-out 0s;
   -webkit-transition: all 0.3s ease-in-out 0s;
   -o-transition: all 0.3s ease-in-out 0s;
-  border: 3px solid darkorange;
+  border: 3px solid #e94;
 
 }
 
@@ -1661,7 +1661,7 @@ h1 {
   color: #fff;
   width: 60px;
   height: 60px;
-  background: darkorange;
+  background: #e94;
   display: block;
   border-radius: 0px;
   line-height: 60px;
@@ -1719,7 +1719,7 @@ h1 {
 }
 
 .team-item .info-text h3 a:hover {
-  color: darkorange;
+  color: #e94;
 }
 
 .team-item .info-text p {
@@ -1773,7 +1773,7 @@ h1 {
   position: absolute;
   top: -25px;
   left: 42%;
-  background-color: darkorange;
+  background-color: #e94;
   color: #ffffff;
   display: block;
   font-size: 26px;
@@ -1806,7 +1806,7 @@ h1 {
 }
 
 .blog-item .descr h3 a:hover {
-  color: darkorange;
+  color: #e94;
 }
 
 .blog-item .meta-tags {
@@ -1822,7 +1822,7 @@ h1 {
 
 .blog-item .meta-tags span i {
   margin-right: 5px;
-  color: darkorange;
+  color: #e94;
 }
 
 .blog-item .meta-tags span a {
@@ -1830,7 +1830,7 @@ h1 {
 }
 
 .blog-item .meta-tags span a:hover {
-  color: darkorange;
+  color: #e94;
 }
 
 .blog-item:hover {
@@ -1882,7 +1882,7 @@ h1 {
 }
 
 .contact-item .contact-info h3 {
-  color: darkorange;
+  color: #e94;
   font-size: 18px;
   margin-bottom: 10px;
 }
@@ -1936,7 +1936,7 @@ h1 {
 .container-form .form-wrapper .form-control:focus {
   color: #212121;
   background-color: #fff;
-  border-color: darkorange;
+  border-color: #e94;
   box-shadow: none;
   outline: 0;
 }
@@ -1951,7 +1951,7 @@ h1 {
 
 .list-unstyled li {
   margin-top: 10px;
-  color: darkorange !important;
+  color: #e94 !important;
 }
 
 .text-danger {
@@ -1977,7 +1977,7 @@ h1 {
 }
 
 .form-control:focus {
-  border-color: darkorange;
+  border-color: #e94;
   box-shadow: none;
   outline: 0;
 }
@@ -2011,7 +2011,7 @@ h1 {
   padding: 0 12px;
   font-size: 28px;
   vertical-align: middle;
-  color: darkorange !important;
+  color: #e94 !important;
 }
 
 #contact-text ul li span {
@@ -2051,7 +2051,7 @@ footer {
 }
 
 .site-info a:hover {
-  color: darkorange;
+  color: #e94;
 }
 
 .social-icons-footer ul {
@@ -2118,7 +2118,7 @@ footer {
 }
 
 .link-list li a:hover {
-  color: darkorange;
+  color: #e94;
 }
 
 /* Subscribe Form */
@@ -2172,7 +2172,7 @@ footer {
 
 .subscribe-inner .form-control:focus {
   color: #212121;
-  border-color: darkorange;
+  border-color: #e94;
   outline: 0;
 }
 
@@ -2200,7 +2200,7 @@ footer {
 }
 
 #count .count-wrapper {
-  background-color: darkorange;
+  background-color: #e94;
   border-radius: 4px;
   box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.08);
   margin-bottom: -35px;
@@ -2352,7 +2352,7 @@ footer {
 #pricing .price-block-wrapper .pricing-list ul li i {
   margin-right: 7px;
   font-size: 12px;
-  color: darkorange !important;
+  color: #e94 !important;
 }
 
 #pricing .price-block-wrapper .btn i {

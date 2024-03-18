@@ -676,7 +676,7 @@ a.back-to-top:focus {
   content: '';
   position: absolute;
   top: 19px;
-  left: 10%;
+  left: 6px;
   margin-left: -10px;
   width: 10px;
   height: 2px;

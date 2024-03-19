@@ -676,9 +676,9 @@ a.back-to-top:focus {
   content: '';
   position: absolute;
   top: 19px;
-  left: 5%;
+  left: 6px;
   margin-left: -10px;
-  width: 15px;
+  width: 10px;
   height: 2px;
   background: #e94;
   -webkit-transform: scale3d(0, 1, 1);
@@ -1203,6 +1203,8 @@ h1 {
   -moz-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
+  width: 200px;
+
 }
 
 .schedule .nav-tabs .nav-item.show .nav-link,
@@ -1270,7 +1272,7 @@ h1 {
 }
 
 .schedule .card .schedule-slot-time {
-  background-image: linear-gradient(65deg, rgb(236, 138, 20) 0, rgb(161, 98, 22) 100%);
+  background-color: #e94;
   color: #fff;
   padding: 38px 28px;
   float: left;
@@ -1337,7 +1339,7 @@ h1 {
 }
 
 .schedule .card-body .location span {
-  color: #ff4a67;
+  color: #e94;
   margin-right: 5px;
 }
 
@@ -1373,7 +1375,7 @@ h1 {
 }
 
 .accordion .card-header i {
-  color: #ff4a67;
+  color: #e94;
   width: 40px;
   height: 40px;
   display: inline-block;
@@ -1541,7 +1543,7 @@ h1 {
 
 #gallery .gallery-box .overlay-box i {
   background: #ffffff;
-  color: #ff4a67;
+  color: #e94;
   font-size: 30px;
   width: 50px;
   height: 50px;
@@ -1561,7 +1563,7 @@ h1 {
 }
 
 #gallery .gallery-box:hover .overlay-box {
-  background: rgba(255, 74, 103, 0.69);
+  background: #e94;
   transform: scale(1, 1);
   -webkit-transition: all 500ms ease;
   -moz-transition: all 500ms ease;
@@ -1600,11 +1602,16 @@ h1 {
   position: relative;
   cursor: pointer;
   overflow: hidden;
-  border: 3px solid #000;
+  border: 1px solid #000;
+
+  transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
 }
 
 .team-item .team-img:hover {
-  border: 6px solid #000;
+  border: 3px solid #000;
 }
 
 .team-item .team-overlay {

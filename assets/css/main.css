@@ -3,6 +3,23 @@
 html {
   overflow-x: hidden;
 }
+#clock {
+  text-align: center;
+}
+
+@media (max-width: 768px) { /* Pour les écrans de taille moyenne et plus petits */
+  #clock {
+    font-size: 6px; /* Ajuster la taille de la police si nécessaire */
+    background-color: black;
+  }
+}
+
+@media (max-width: 576px) { /* Pour les écrans de petite taille */
+  #clock {
+    font-size: 4px; /* Ajuster la taille de la police si nécessaire */
+    background-color: black;
+  }
+}
 
 body {
   background: #fff;
